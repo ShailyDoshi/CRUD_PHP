@@ -42,7 +42,7 @@
 
             ?>
             <h2>Update Record</h2>
-            <form method="post" action="update.php">
+            <form method="post" action="update.php" onsubmit="return validateForm()">
                 <div>
                     <h1 style="background-color: cadetblue; text-align: center; color: white;">Please Enter Details Here</h1>
                 </div>
